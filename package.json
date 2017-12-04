@@ -1,0 +1,27 @@
+{
+  "name": "myGulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "favicon": "gulp generate-favicon && gulp inject-favicon-markups && gulp minify && gulp images"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-embedlr": "^0.5.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-real-favicon": "^0.2.2",
+    "gulp-responsive": "^2.8.0",
+    "tiny-lr": "^1.0.5"
+  }
+}

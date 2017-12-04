@@ -1,1 +1,1 @@
-# gulpTemplate
+# createFavicons
